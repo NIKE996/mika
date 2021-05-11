@@ -1,9 +1,9 @@
-name: 简单天气
+name: 简单天气nosmallmood
 
 on:
   workflow_dispatch:
   schedule:
-     - cron: '5,35 0-23 * * *'
+     - cron: '5 15 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -25,7 +25,7 @@ jobs:
           npm install
       - name: '运行 【简单天气】'
         run: |
-          node Task/jdtq.js
+          node jdtq.js
         env:
           
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
