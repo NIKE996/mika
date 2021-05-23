@@ -1,0 +1,243 @@
+{
+  "id": "ningmeng.app.sub",
+  "name": "柠檬应用订阅",
+  "author": "@ningmeng",
+  "icon": "http://nm66.top/1.jpg",
+  "repo": "http://nm66.top/",
+  "apps": [
+   {
+      "id": "fhxz",
+      "name": "富豪小镇",
+      "keys": ["fhxzurl", "fhxzhd","fhxzurl2","fhxzhd2","fhxzurl3","fhxzhd3","fhxzurl4","fhxzhd4","fhxzurl5","fhxzhd5"],
+      "author": "@ningmeng",
+      "settings": [{
+            "id": "fhxzsetting",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "fhxzcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/fhxz.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/fhxz.js"
+    },
+     {
+    "id": "kxdfs",
+    "name": "开心大丰收",
+    "keys": ["kxdfsheader", "kxdfsheader2", "kxdfsheader3", "kxdfsheader4", "kxdfsheader5"],
+    "author": "@ningmeng",
+    "settings": [
+      {
+        "id": "kxdfssetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "kxdfscount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "http://nm66.top/kxdfs.js",
+    "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+    "script": "http://nm66.top/kxdfs.js"
+  },
+      {
+      "id": "dyd",
+    "name": "dyd",
+    "keys": ["rwhd", "rwurl"],
+    "author": "@ningmeng",
+    "settings": [
+      {
+        "id": "rwsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "rwcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "http://nm66.top/dyd.js",
+    "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+    "script": "http://nm66.top/dyd.js"
+  },
+      {
+      "id": "dydhb",
+    "name": "dydhb",
+    "keys": ["xnmhd", "xnmurl"],
+    "author": "@ningmeng",
+    "settings": [
+      {
+        "id": "xnmsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "xnmcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "http://nm66.top/qmlzc.js",
+    "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+    "script": "http://nm66.top/dydhb.js"
+  },
+   {
+            "id": "qmlzc",
+            "name": "全民来找茬",
+            "keys": ["xnmurl","xnmheader", "xnmurl2","xnmheader2", "xnmurl3","xnmheader3", "xnmurl4","xnmheader4", "xnmurl5","xnmheader5", "xnmurl6","xnmheader6"],
+            "author": "@ningmeng",
+            "settings": [{
+            "id": "xnmstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "xnmcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/qmlzc.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/qmlzc.js"
+    },
+       {
+            "id": "qmdff",
+            "name": "全民大丰收",
+            "keys": ["qmdffurl","qmdffheader", "qmdffurl2","qmdffheader2", "qmdffurl3","qmdffheader3", "qmdffurl4","qmdffheader4", "qmdffurl5","qmdffheader5", "qmdffurl6","qmdffheader6"],
+            "author": "@ningmeng",
+            "settings": [{
+            "id": "qmdffstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "qmdffcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/qmdff.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/qmdff.js"
+    },
+       {
+            "id": "ydf",
+            "name": "运动福极速版",
+            "keys": ["ydfheader", "ydfheader2","ydfheader3", "ydfheader4","ydfheader5", "ydfheader6","ydfheader7", "ydfheader8","ydfheader9", "ydfheader10","ydfheader11","ydfheader12", "ydfheader13","ydfheader14", "ydfheader15","ydfheader16", "ydfheader17","ydfheader18", "ydfheader19","ydfheader20", "ydfheader21","ydfheader22"],
+            "author": "@ningmeng",
+            "settings": [{
+            "id": "ydfstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "ydfcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/ydf.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/ydf.js"
+    },
+       {
+            "id": "gd",
+            "name": "柠檬咕咚步数红包",
+            "keys": ["gdurl", "gdhd","gdurl2", "gdhd2","gdurl3", "gdhd3","gdurl4", "gdhd4","gdurl5","gdhd5", "gdurl6","gdhd6", "gdurl7","gdhd7", "gdurl8","gdhd8", "gdurl9","gdhd9", "gdurl10","gdhd10"],
+            "author": "@ningmeng",
+            "settings": [{
+            "id": "gdstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "gdcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/gd.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/gd.js"
+    },
+       {
+            "id": "kjj",
+            "name": "柠檬看看集自动阅读",
+            "keys": ["kjjurl", "kjjhd","kjjurl2", "kjjhd2","kjjurl3", "kjjhd3","kjjurl4", "kjjhd4","kjjurl5","kjjhd5", "kjjurl6","kjjhd6", "kjjurl7","kjjhd7", "kjjurl8","kjjhd8", "kjjurl9","kjjhd9", "kjjurl10","kjjhd10"],
+            "author": "@ningmeng",
+            "settings": [{
+            "id": "kjjstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "kjjcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/kjj.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/kjj.js"
+    },
+       {
+            "id": "chxx",
+            "name": "柠檬彩虹消消消",
+            "keys": ["kkjurl", "kkjhd", "kkjurl2","kkjhd2","kkjurl3", "kkjhd3", "kkjurl4","kkjhd4", "kkjurl5", "kkjhd5", "kkjurl6","kkjhd6","kkjurl7", "kkjhd7", "kkjurl8","kkjhd8", "kkjurl9", "kkjhd9", "kkjurl10","kkjhd10","kkjurl11", "kkjhd11", "kkjurl12","kkjhd12","kkjurl13", "kkjhd13", "kkjurl14","kkjhd14"],
+            "author": "@ningmeng",
+            "settings": [{
+            "id": "kkjstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "kkjcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/chxx.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/chxx.js"
+    }
+  ]
+  
+}
