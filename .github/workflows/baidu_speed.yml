@@ -2,7 +2,7 @@ name: baiduspeed(百度极速版)
 on:
   workflow_dispatch:
   schedule:
-     - cron: '*/10 * * * *'
+     - cron: '35 15 * * *'
   watch:
     types: started
 jobs:
