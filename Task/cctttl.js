@@ -21,9 +21,9 @@ var request = require("request");
 let status;
 status = (status = ($.getval("ttlstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
 let ttlhdArr = [],ttlcount = ''
-let ttlhd= $.isNode() ? (process.env.ttlhd ? process.env.ttlhd : "") : ($.getdata('ttlhd') ? $.getdata('ttlhd') : "")
+let ttlhd= agreePrivacy=false; JSESSIONID=C16EDE4FACAD75D7C33898ED186751D2;
 
-let ttlhds = "agreePrivacy=false; JSESSIONID=C16EDE4FACAD75D7C33898ED186751D2"
+let ttlhds = " "
 const logs =0;
 const host='https://www.ttljf.com/ttl_chefHub/'
 var hours = new Date().getHours();
