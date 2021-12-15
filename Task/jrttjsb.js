@@ -39,7 +39,7 @@ let httpResult //global buffer
 let host = 'i.snssdk.com'
 let hostname = 'https://' + host
 
-let userAgent = ($.isNode() ? process.env.jrttjsbUA : $.getdata('jrttjsbUA')) || 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; VOG-AL10 Build/HUAWEIVOG-AL10) NewsArticle/8.2.8 tt-ok/3.10.0.2';
+let userAgent = ($.isNode() ? process.env.jrttjsbUA : $.getdata('jrttjsbUA')) || 'NewsLite 8.5.1 rv:8.5.1.21 (iPhone; iOS 15.1.1; zh_CN) Cronet';
 let userAgentArr = []
 let userHeader = ($.isNode() ? process.env.jrttjsbHeader : $.getdata('jrttjsbHeader')) || 'passport_csrf_token=696620565eb5189f6a837131f9e7fd7c; passport_csrf_token_default=696620565eb5189f6a837131f9e7fd7c; d_ticket=0752fad40ce31a204e83605294022e03dff5e; n_mh=Fn0a0eI5WefvLN3ifRKg17haDaymHl_PSPtE6Z-ZnfY; odin_tt=ad5ad89d7fd472a6511ef959f17cc107490fdf3ea13f1f3103a690c9bf6c9e442958c1dad2bb7637a64afce93f84a7e5dd00110acb9a9f88712e408d041e260862a4d20e0ace3c657959daf38e446046; sessionid=914fa531f440c5b560e8c8936673b9e1; sessionid_ss=914fa531f440c5b560e8c8936673b9e1; sid_guard=914fa531f440c5b560e8c8936673b9e1%7C1639366723%7C5184000%7CFri%2C+11-Feb-2022+03%3A38%3A43+GMT; sid_tt=914fa531f440c5b560e8c8936673b9e1; uid_tt=26aa32be74ade00442d3a56aae1a048d; uid_tt_ss=26aa32be74ade00442d3a56aae1a048d; gftoken=OTE0ZmE1MzFmNHwxNjM5MzY2Nzc3MzR8fDAGBgYGBgY; install_id=660164985494839; ttreq=1$e744e6159c551e8da3a3e04b9192a613412dac8e';
 let userHeaderArr = []
